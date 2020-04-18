@@ -1,0 +1,54 @@
+header a {
+    font-size: 18px;
+    color: gray;
+    margin-left: 30px;
+}
+
+#header p {
+    font-size: 42px;
+}
+
+#hero {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    padding: 18px;
+    font-size: 1.9vw;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(27, 155, 27);
+}
+
+#menu-icon {
+    width: 32px;
+}
+
+#slike img {
+    width: 300px;
+}
+
+#footer {
+    background-color: #222222;
+}
+
+#footer-bottom {
+    background-color: black;
+}
+
+@media screen and (max-width: 991px) {
+    #hero h2 {
+        width: 90vw;
+        text-align: center;
+        font-size: 3.5vw;
+        position: absolute;
+        top: 35%;
+        left: 5%;
+    }
+}
